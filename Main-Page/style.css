@@ -1,0 +1,318 @@
+* {
+    color: white;
+}
+    body {
+    background-color: black;
+    background-image: url("https://img.freepik.com/free-vector/abstract-pixel-rain-background_23-2148384633.jpg?t=st=1737734175~exp=1737737775~hmac=1d1ec226cba5c960906b1299dd7686753b5b7761a2673197fcc813600bf09705&w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Londrina Sketch", sans-serif;
+    font-style: normal;
+    margin-top: 10px;
+    animation: Zoomin 2s infinite;
+    margin-left: 20px;
+    
+}
+
+
+.logo2 {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Londrina Sketch", sans-serif;
+    font-style: normal;
+    animation: Zoomin 2s infinite;
+    margin-left: 90px;
+    
+}
+
+.mainnav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+
+.logo-container {
+    height: 100px;
+}
+
+@keyframes Zoomin {
+    0% {
+        /* font-size: 3rem; */
+    }
+    50% {
+        /* font-size: 3.5rem; */
+        text-shadow: 0px 0px 30px red;
+        color: red;
+    }
+    100% {
+        /* font-size: 3rem; */
+    }
+}
+
+
+
+.navelement {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.navelement a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* font-style: normal; */
+    font-weight: none;
+}
+
+.navelement a:hover {
+    font-size: 22px;
+    text-shadow: 0px 0px 30px red;
+    color: red;
+    text-decoration: underline;
+}
+
+.agentbuttmain {
+    margin-top: 20px;
+}
+
+.agentbuttmain button{
+    margin-top: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(191, 248, 78);
+}
+
+.maincontent {
+    width: 100%;
+    height: auto;
+    /* background-color: white; */
+    padding-top: 100px;
+    text-align: center;
+}
+
+.content button {
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(2, 32, 75);
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.nameofowner {
+    margin-top: 30px;
+    font-size: 5.5rem;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nameofowner p {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(155, 155, 155);
+}
+
+.location {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.welcome {
+    margin-top: 50px;
+}
+
+.welcome button {
+    height: 70px;
+    width: 300px;
+    background-color: orangered;
+    color: rgb(190, 255, 59);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.imgofmainthing {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.imgofmainthing img {
+    width: 1200px;
+    height: auto;
+    view-timeline: --subjectReveal block;
+    animation-timeline: --subjectReveal;
+  
+    animation-name: appear;
+    animation-fill-mode: both;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+}
+  
+  @keyframes appear {
+    from {
+      transform: scaleX(0);
+    }
+  
+    to {
+      transform: scaleX(1);
+    }
+  }
+
+.relatedwork {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+
+
+.one11 {
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    color: rgb(180, 177, 177);
+}
+
+.relatedwork p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagecontar {
+    height: 130px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.imagecontar img {
+    height: 100px;
+}
+
+.travelmain {
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.travelbutton button {
+    height: 50px;
+    width: 500px;
+    margin-top: 150px;
+    background-color: rgb(205, 243, 255);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    align-items: center;
+    border: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+.trainticket h1 {
+    color: black;
+    font-size: 5rem;
+    font-weight: 100;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.trainticket p {
+    color: rgb(80, 79, 79);
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.trainticket button {
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    background-color: orangered;
+    font-size: 1.3rem;
+    border: none;
+    text-align: center;
+}
+
+.boxmain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.box1 {
+    height: 600px;
+    width: 550px;
+    background-color: black;
+    margin: 0px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.box1 h1 {
+    margin-left: 30px;
+}
+
+.box1 p {
+    font-size: 1.3rem;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box2 {
+    height: 600px;
+    width: 850px;
+    background-color: black;
+    margin: 0px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
