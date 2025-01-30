@@ -3,7 +3,7 @@
 }
     body {
     background-color: black;
-    background-image: url("https://img.freepik.com/free-vector/abstract-pixel-rain-background_23-2148384633.jpg?t=st=1737734175~exp=1737737775~hmac=1d1ec226cba5c960906b1299dd7686753b5b7761a2673197fcc813600bf09705&w=2000");
+    background-image: url("Other/img-for-main/7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,7 +140,7 @@
 .nameofowner p {
     margin: 0px;
     padding: 0px;
-    color: rgb(155, 155, 155);
+    color: rgb(189, 187, 187);
 }
 
 .location {
@@ -183,10 +183,12 @@
   
   @keyframes appear {
     from {
+        opacity: 0;
       transform: scaleX(0);
     }
   
     to {
+        opacity: 1;
       transform: scaleX(1);
     }
   }
@@ -203,7 +205,7 @@
     margin: 0px;
     padding: 0px;
     margin-bottom: 10px;
-    color: rgb(180, 177, 177);
+    color: rgb(0, 242, 255);
 }
 
 .relatedwork p {
@@ -289,30 +291,190 @@
 }
 
 .box1 {
-    height: 600px;
-    width: 550px;
+    height: 670px;
+    width: 600px;
     background-color: black;
     margin: 0px;
-    margin-left: 50px;
     border-radius: 10px;
 }
 
 .box1 h1 {
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 
 .box1 p {
     font-size: 1.3rem;
     padding: 0px;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 20px;
 }
 
+.box1 img {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
 .box2 {
-    height: 600px;
-    width: 850px;
+    height: 670px;
+    width: 950px;
     background-color: black;
     margin: 0px;
-    margin-left: 50px;
     border-radius: 10px;
+}
+
+.box2 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.box2 p {
+    font-size: 1.3rem;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.box2 img {
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.box3 {
+    height: 670px;
+    width: 950px;
+    background-color: black;
+    margin: 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.box3 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.box3 p {
+    font-size: 1.3rem;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.box3 img {
+    width: 670px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-left: 145px;
+}
+
+.box4 {
+    height: 670px;
+    width: 600px;
+    background-color: black;
+    margin: 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.box4 h1 {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.box4 p {
+    font-size: 1.3rem;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.box4 img {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.whychoise {
+    padding-top: 50px;
+    height: auto;
+    width: 100%;
+}
+
+.content1 button {
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #e4f4ff;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: black;
+}
+
+.content1 {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.textcon {
+    align-items: left;
+    margin-left: 50px;
+    color: black;
+}
+
+.textcon h1 {
+    color: black;
+    align-items: start;
+    margin: 0px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 4.5rem;
+
+}
+
+.textcon p {
+    color:  black;
+    align-items: start;
+    margin: 0px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: rgb(82, 75, 75);
+}
+
+.threecondiyion {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box5 {
+    background-color: black;
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.box5 button {
+    height: 80px;
+    width: 75px;
+    border-radius: 20px;
+    font-size: 3rem;
+    background-color: orangered;
+}
+
+.box5 p {
+    width: 100%;
 }
