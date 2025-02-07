@@ -581,3 +581,185 @@ footer {
     width: 100%;
     background-color: white;
 }
+
+.maincontener {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footerbox1 {
+    height: 300px;
+    width: 300px;
+    /* background-color: black; */
+    margin: 0px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.footerbox2 {
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+.footerbox3 {
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-top: 100px;
+
+}
+
+.footerbox4 {
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    margin-top: 50px;
+    margin-top: 100px;
+
+}
+
+.logofoot {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-family: "Londrina Sketch", sans-serif;
+    font-style: normal;
+    margin-top: 50px;
+    /* animation: Zoomin 2s infinite; */
+    
+}
+
+.logo2foot {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    font-family: "Londrina Sketch", sans-serif;
+    font-style: normal;
+    /* animation: Zoomin 2s infinite; */
+    
+}
+
+.footerbox1 button {
+    background-color: orangered;
+    border: none;
+    height: 70px;
+    width: 230px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.footerbox1 a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.footerbox2 h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: black;
+}
+
+.footerbox2 p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footerbox3 h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: black;
+}
+
+.footerbox3 p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footerbox4 h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: black;
+}
+
+.footerbox4 p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.linethotedoot p{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+
+.linethotedoot {
+    display: flex;
+    justify-content: center;
+}
+
+.lastfootsection {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.onefootbox {
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.onesubfootbox {
+    width: 35%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.onesubfootbox p{
+    color: black;
+    font-size: 1.1rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.twosubfootbox p {
+    color: black;
+    font-size: 1.1rem;
+    padding: 0px;
+    margin: 0px;
+}
